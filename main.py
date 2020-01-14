@@ -1,5 +1,9 @@
 import turtle
-import Image
-t = turtle.Turtle()
 
-t.goto()
+image = "area-of-circle-color-coded-concept.png"
+screen = turtle.Screen()
+
+screen.addshape(image)
+turtle.shape(image)
+
+turtle.mainloop()
